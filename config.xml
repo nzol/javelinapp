@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.nzol.javelinapp"
+        versionCode = "10" 
+        version     = "1.0.0" >
+
+    <!-- versionCode is optional and Android only -->
+
+    <name>Javelin App</name>
+
+    <description>
+        Javelin Portable Documents App
+    </description>
+
+    <author href="https://twitter.com/TechReportNZ" email="jordan@nzol.info">
+        Jordan Smith
+    </author>
+
+    <gap:platform name="ios" />
+    <gap:platform name="android" />
+    <gap:platform name="winphone" />
+
+    <allow-intent href="http://bagsed-it.com/" />
+    <access origin="*" />
+
+</widget>
